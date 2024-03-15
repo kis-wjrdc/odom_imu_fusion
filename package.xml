@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>odom_imu_fusion</name>
+  <version>0.0.1</version>
+  <description>A ROS 2 package for fusing odometry and IMU data to improve localization.</description>
+
+  <maintainer email="kis@wj-rdc.jp">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <url type="website">http://example.com</url>
+  <url type="repository">http://example.com/SourceRepository</url>
+  <url type="bugtracker">http://example.com/IssueTracker</url>
+
+  <author email="your_email@example.com">Your Name</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>geometry_msgs</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
